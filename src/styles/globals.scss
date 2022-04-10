@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$selection-color: #40aafe;
+
+::-moz-selection {
+  background: $selection-color;
+}
+
+::selection {
+  background: $selection-color;
+}
+
+html {
+  scroll-behavior:  smooth;
+}
+
+body {
+  background-image: url('../static/background.jpg');
+  background-color: #262336;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-position: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6ex;
+}
+
+.middle {
+  height: 85vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.tagline {
+  font-size: 1.85em;
+  color: white;
+  margin-top: -0.5em;
+}
+
+p {
+  color: white;
+}
