@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Image from 'next/image'
-import ProfilePicture from '../static/profilepic.png'
 
 const Index: NextPage = () => {
   return (
@@ -9,7 +8,7 @@ const Index: NextPage = () => {
         <Image
           className='rounded-full'
           alt='Profile Picture'
-          src={ProfilePicture}
+          src='https://raw.githubusercontent.com/ArtieFuzzz/artiefuzzz.github.io/main/src/static/profilepic.png'
           width='256'
           height='256'
           draggable='false'
