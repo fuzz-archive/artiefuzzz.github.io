@@ -1,14 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
-// @ts-ignore
+import { useLanyard } from 'use-lanyard'
 import ProfilePicture from '../static/profilepic.png'
 
 const Index: NextPage = () => {
+  const discordData = useLanyard('389252140184633363')
+  const status = discordData.data?.discord_status!
+
+  if (!discordData.data) return null
+
+  const statuses: Record<string, string> = {
+    online: 'ring-green-400',
+    idle: 'ring-yellow-300',
+    dnd: 'ring-red-600',
+    invisible: 'ring-gray-600',
+    offline: 'ring-gray-600'
+  }
+
   return (
     <>
       <div className='justify-center items-center flex middle text-center'>
         <img
-          className='rounded-full'
+          className={`rounded-full ring-8 p-2 ${statuses[status]} dark:border-gray-800`}
           alt='Profile Picture'
           src={ProfilePicture.src}
           width='256'
