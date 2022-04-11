@@ -1,14 +1,16 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
-import Image from '../components/Image'
+// @ts-ignore
+import ProfilePicture from '../static/profilepic.png'
 
 const Index: NextPage = () => {
   return (
     <>
       <div className='justify-center items-center flex middle text-center'>
-        <Image
+        <img
           className='rounded-full'
           alt='Profile Picture'
-          src={require('../static/profilepic.png')}
+          src={ProfilePicture.src}
           width='256'
           height='256'
           draggable='false'
