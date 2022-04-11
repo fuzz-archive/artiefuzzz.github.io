@@ -30,7 +30,7 @@ const Index: NextPage = () => {
         />
         <div
           className='lg:grid lg:text-center lg:relative mb-5 text-center gap-4'
-          style={{ right: -20, bottom: -20 }}
+          style={{ right: -40, bottom: -20 }}
         >
           <h1>ArtieFuzzz</h1>
           <p className='tagline'>Self - Taught Backend / Frontend Developer.</p>
