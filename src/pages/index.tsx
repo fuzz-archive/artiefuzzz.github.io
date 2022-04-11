@@ -34,7 +34,7 @@ const Index: NextPage = () => {
         >
           <h1>ArtieFuzzz</h1>
           <p className='tagline'>Self - Taught Backend / Frontend Developer.</p>
-          <div className='flex items-start space-x-2'>
+          <div className='flex items-start space-x-3'>
             <a
               className='bg-transparent hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded'
               href='https://github.com/ArtieFuzzz'
@@ -46,6 +46,12 @@ const Index: NextPage = () => {
               href='https://steamcommunity.com/id/ArtieFuzzz/'
             >
               Steam
+            </a>
+            <a
+              className='bg-transparent hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded'
+              href='https://wakatime.com/@ArtieFuzzz'
+            >
+              Wakatime Stats
             </a>
           </div>
         </div>
