@@ -1,8 +1,7 @@
 import NextImage, { ImageLoaderProps, ImageProps } from 'next/image';
 
 const customLoader = ({ src }: ImageLoaderProps) => {
-  const [name, extension] = src.split('.');
-  return `../static/${name}.${extension}`;
+  return `../static/${src}`;
 };
 
 const Image = (props: ImageProps) => {

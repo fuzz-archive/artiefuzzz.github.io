@@ -4,6 +4,7 @@ const isProd = process.env.NODE_ENV === "production"
 const nextConfig = {
   images: {
     loader: 'custom',
+    disableStaticImages: true
   },
   reactStrictMode: true,
   poweredByHeader: false,

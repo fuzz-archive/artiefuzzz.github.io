@@ -8,7 +8,7 @@ const Index: NextPage = () => {
         <Image
           className='rounded-full'
           alt='Profile Picture'
-          src='../static/profilepic.png'
+          src={require('../static/profilepic.png')}
           width='256'
           height='256'
           draggable='false'
