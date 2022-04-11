@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import Image from 'next/image'
+import Image from '../components/Image'
 
 const Index: NextPage = () => {
   return (
@@ -8,7 +8,7 @@ const Index: NextPage = () => {
         <Image
           className='rounded-full'
           alt='Profile Picture'
-          src='https://raw.githubusercontent.com/ArtieFuzzz/artiefuzzz.github.io/main/src/static/profilepic.png'
+          src='../static/profilepic.png'
           width='256'
           height='256'
           draggable='false'
