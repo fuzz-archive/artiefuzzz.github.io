@@ -14,7 +14,7 @@ const Index: NextPage = () => {
     idle: 'ring-yellow-300',
     dnd: 'ring-red-600',
     invisible: 'ring-gray-600',
-    offline: 'ring-gray-600'
+    offline: 'ring-gray-600',
   }
 
   return (
@@ -36,19 +36,19 @@ const Index: NextPage = () => {
           <p className='tagline'>Self - Taught Backend / Frontend Developer.</p>
           <div className='flex items-start space-x-3'>
             <a
-              className='bg-transparent hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded'
+              className='btn-round-outline-blue'
               href='https://github.com/ArtieFuzzz'
             >
               Github
             </a>
             <a
-              className='bg-transparent hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded'
+              className='btn-round-outline-blue'
               href='https://steamcommunity.com/id/ArtieFuzzz/'
             >
               Steam
             </a>
             <a
-              className='bg-transparent hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded'
+              className='btn-round-outline-blue'
               href='https://wakatime.com/@ArtieFuzzz'
             >
               Wakatime Stats
