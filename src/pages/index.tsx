@@ -5,9 +5,10 @@ import ProfilePicture from '../static/profilepic.png'
 
 const Index: NextPage = () => {
   const discordData = useLanyard('389252140184633363')
-  const status = discordData.data?.discord_status!
 
   if (!discordData.data) return null
+
+  const status = discordData.data.discord_status
 
   const statuses: Record<string, string> = {
     online: 'ring-green-400',
