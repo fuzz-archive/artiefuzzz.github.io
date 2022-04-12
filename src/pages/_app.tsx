@@ -9,13 +9,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title> Fuzzy </title>
 
-        <meta name='og:title' content='ArtieFuzzz'/>
+        <meta name='og:title' content='Artie Fuzzz'/>
         <meta name='theme-color' content='#6e62d1'/>
         <meta name='og:image' content={ProfilePicture.src}/>
         <meta name='og:description' content='Self Taught Frontend / Backend Developer'/>
         <meta name='description' content='Self Taught Frontend / Backend Developer'/>
         <meta name='og:url' content='https://artiefuzzz.is-a.dev'/>
-        <meta name='og:site_name' content='ArtieFuzzz'/>
+        <meta name='og:site_name' content='Artie'/>
         <meta name='keywords' content='ArtieFuzzz, Artie, Fuzzz'/>
       </Head>
       <Component {...pageProps} />
