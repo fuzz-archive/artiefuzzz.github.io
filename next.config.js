@@ -4,7 +4,6 @@ const isProd = process.env.NODE_ENV === "production"
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  assetPrefix: isProd ? "/artiefuzzz.github.io/" : "",
   env: {
     storePicturesInWEBP: true,
   }
