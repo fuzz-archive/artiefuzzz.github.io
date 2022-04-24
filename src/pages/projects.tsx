@@ -4,10 +4,11 @@ const Page: NextPage = () => {
   return (
     <>
       <div className='items-center middle text-center flex'>
-        <h1> Projects {`I'm`} working on <br /> (THIS PAGE IS INCOMPLETE)</h1>
-        <ul className='display-boxes'>
+        <h1> Projects {`I've`} working on</h1>
+        <ul className='display-boxes flex flex-wrap'>
           <li className='a-box'>
-            <h2>Foo bar!</h2>
+            <h2>Foo bar!</h2> <br />
+            <h2>Soon</h2>
           </li>
 
           <li className='a-box'>

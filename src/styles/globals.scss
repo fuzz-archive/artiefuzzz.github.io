@@ -63,6 +63,7 @@ p {
 .display-boxes {
   @apply flex flex-wrap opacity-100 align-middle relative;
 
+  padding: 0;
   margin: 0 auto;
   list-style: none;
   width: 80%;
