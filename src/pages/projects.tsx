@@ -3,28 +3,18 @@ import type { NextPage } from 'next'
 const Page: NextPage = () => {
   return (
     <>
-      <div className='items-center middle text-center flex'>
-        <h1> Projects {`I've`} working on</h1>
-        <ul className='display-boxes flex flex-wrap'>
-          <li className='a-box'>
-            <h2>Foo bar!</h2> <br />
-            <h2>Soon</h2>
-          </li>
+      <div className='justify-center items-center align-middle flex flex-col mx-auto'>
+        <ul className='display-boxes'>
+          <li className='a-box mx-auto'>
+            <div className='flex flex-col justify-center p-1 lg:p-2'>
+              <h2 className='font-bold text-lg lg:text-2x1'>
+                <a>Hello world!</a>
+              </h2>
+            </div>
 
-          <li className='a-box'>
-            <h2>Hello world!</h2>
-          </li>
-
-          <li className='a-box'>
-            <h2>Eggs Also Bacons!</h2>
-          </li>
-
-          <li className='a-box'>
-            <h2>WARNING NO MOTIVATION!</h2>
-          </li>
-
-          <li className='a-box'>
-            <h2>Hello world!</h2>
+            <footer className='flex p-2 items-center'>
+              <p>Hello!</p>
+            </footer>
           </li>
         </ul>
       </div>
