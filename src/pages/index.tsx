@@ -50,6 +50,12 @@ const Index: NextPage = () => {
             </a>
             <a
               className='btn-round-outline-blue'
+              href='/blog'
+            >
+              Blog
+            </a>
+            <a
+              className='btn-round-outline-blue'
               href='https://wakatime.com/@ArtieFuzzz'
             >
               Wakatime Stats
