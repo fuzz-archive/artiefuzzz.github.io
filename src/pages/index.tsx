@@ -20,15 +20,34 @@ const Index: NextPage = () => {
 
   return (
     <>
+      <nav className='flex items-center justify-between flex-wrap p-3'>
+        <div className='flex items-center flex-shrink-0 text-white mr-5 px-1'>
+          <img
+            src={ProfilePicture.src}
+            alt='Profile Picture'
+            width='64'
+            height='64'
+            className='rounded-full mr-3'
+          />
+          <span className='font-semibold text-xl tracking-tight'>
+            Placeholder
+          </span>
+        </div>
+        <div
+          className='w-full block flex-grow lg:flex lg:items-center lg:w-auto'
+        >
+          <div className='text-sm lg:flex-grow'>
+            <a href='#' className='block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:text-blue-300 font-semibold'>
+              Item 1
+            </a>
+            <a href='#' className='block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:text-blue-300 font-semibold'>
+              Item 2
+            </a>
+          </div>
+        </div>
+      </nav>
+
       <div className='justify-center items-center flex middle text-center'>
-        <img
-          className={`rounded-full ring-8 p-2 ${statuses[status]} dark:border-gray-800`}
-          alt='Profile Picture'
-          src={ProfilePicture.src}
-          width='256'
-          height='256'
-          draggable='false'
-        />
         <div
           className='lg:grid lg:text-center lg:relative mb-5 text-center gap-4'
           style={{ right: -40, bottom: -20 }}
@@ -48,10 +67,7 @@ const Index: NextPage = () => {
             >
               Steam
             </a>
-            <a
-              className='btn-round-outline-blue'
-              href='/blog'
-            >
+            <a className='btn-round-outline-blue' href='/blog'>
               Blog
             </a>
             <a
