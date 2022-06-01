@@ -36,20 +36,17 @@ const Index: NextPage = () => {
         </div>
         <div className='w-full block flex-grow lg:flex lg:items-center lg:w-auto'>
           <div className='text-sm lg:flex-grow'>
-            <a
-              href='#'
-              className='nav-item'
-            >
-              <Github/>
+            <a href='#' className='nav-item'>
+              <Github />
+            </a>
+            <a href='https://wakatime.com/@ArtieFuzzz' className='nav-item'>
+              <Wakatime />
             </a>
             <a
-              href='https://wakatime.com/@ArtieFuzzz'
+              href='https://steamcommunity.com/id/ArtieFuzzz/'
               className='nav-item'
             >
-              <Wakatime/>
-            </a>
-            <a href='https://steamcommunity.com/id/ArtieFuzzz/'>
-              <Steam/>
+              <Steam />
             </a>
           </div>
         </div>
