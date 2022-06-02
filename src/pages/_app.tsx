@@ -1,16 +1,17 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import ProfilePicture from '../static/profilepic.png'
+import ProfilePicture from '../../public/profilepic.png'
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title> Fuzzy </title>
+        <title> Artie  </title>
+        <link rel="icon" href="/favicon.png" />
 
-        <meta name='og:title' content='Artie Fuzzz'/>
-        <meta name='theme-color' content='#6e62d1'/>
+        <meta name='og:title' content='Artie'/>
+        <meta name='theme-color' content='#f9a8d4'/>
         <meta name='og:image' content={ProfilePicture.src}/>
         <meta name='og:description' content='Self Taught Frontend / Backend Developer'/>
         <meta name='description' content='Self Taught Frontend / Backend Developer'/>
