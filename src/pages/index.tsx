@@ -33,7 +33,7 @@ const Index: NextPage = () => {
         </div>
         <div className='w-full block flex-grow lg:flex lg:items-center lg:w-auto'>
           <div className='lg:flex-grow'>
-            <a href='#' className='nav-item'>
+            <a href='https://github.com/ArtieFuzzz' className='nav-item'>
               <Github />
             </a>
             <a href='https://wakatime.com/@ArtieFuzzz' className='nav-item'>
@@ -59,7 +59,8 @@ const Index: NextPage = () => {
                 .
               </h1>
               <div className='text-white py-2 text-lg'>
-                Self - Taught Programmer from Australia doing Frontend and Backend
+                Self - Taught Programmer from Australia doing Frontend and
+                Backend
               </div>
             </div>
 
@@ -68,7 +69,14 @@ const Index: NextPage = () => {
               <p className='text-lg text-gray-200'>
                 Ever since I started learning{' '}
                 <span className='text-pink-300'>Programming</span>, I fell in{' '}
-                <span className='text-pink-300'>Love</span>. I try to keep most of my projects <a className='text-pink-300' href='https://github.com/ArtieFuzzz?tab=repositories'>Open-Sourced</a>
+                <span className='text-pink-300'>Love</span>. I try to keep most
+                of my projects{' '}
+                <a
+                  className='text-pink-300'
+                  href='https://github.com/ArtieFuzzz?tab=repositories'
+                >
+                  Open-Sourced
+                </a>
               </p>
             </div>
           </div>
