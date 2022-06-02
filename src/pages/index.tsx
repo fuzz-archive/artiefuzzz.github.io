@@ -60,7 +60,7 @@ const Index: NextPage = () => {
               </h1>
               <div className='text-white py-2 text-lg'>
                 Self - Taught Programmer from Australia doing Frontend and
-                Backend
+                Backend.
               </div>
             </div>
 
@@ -76,7 +76,7 @@ const Index: NextPage = () => {
                   href='https://github.com/ArtieFuzzz?tab=repositories'
                 >
                   Open-Sourced
-                </a>
+                </a>.
               </p>
             </div>
           </div>
