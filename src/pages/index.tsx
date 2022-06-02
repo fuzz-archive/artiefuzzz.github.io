@@ -1,5 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
-import { CssThree, Docker, Github, Html5, Mongodb, Nextdotjs, Nodedotjs, Postgresql, Powershell, Rust, Sass, Steam, Tailwindcss, Typescript, Visualstudiocode, Wakatime } from '@icons-pack/react-simple-icons'
+import {
+  CssThree,
+  Docker,
+  Github,
+  Html5,
+  Mongodb,
+  Nextdotjs,
+  Nodedotjs,
+  Postgresql,
+  Powershell,
+  Rust,
+  Sass,
+  Steam,
+  Tailwindcss,
+  Typescript,
+  Visualstudiocode,
+  Wakatime
+} from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
 import { useLanyard } from 'use-lanyard'
 import ProfilePicture from '../../public/profilepic.png'
@@ -55,21 +72,30 @@ const Index: NextPage = () => {
           <div className='justify-evenly flex flex-col items-start mx-w-xl'>
             <div>
               <h1 className='text-6xl font-bold m-0'>
-                Hello, {"I'm"} <span className='text-pink-300'>ArtieFuzzz</span>.
-                <div className='flex items-start justify-center' style={{ 'paddingLeft': '16.9rem' }}>
+                Hello, {"I'm"} <span className='text-pink-300'>ArtieFuzzz</span>
+                .
+                <div
+                  className='flex items-start justify-center'
+                  style={{ paddingLeft: '16.9rem' }}
+                >
                   <Nodedotjs className='ml-1 mr-1' width='24' height='24' />
-                  <Rust className='ml-1 mr-1' width='24' height='24'/>
-                  <Typescript className='ml-1 mr-1' width='24' height='24'/>
-                  <Html5 className='ml-1 mr-1' width='24' height='24'/>
-                  <CssThree className='ml-1 mr-1' width='24' height='24'/>
-                  <Sass className='ml-1 mr-1' width='24' height='24'/>
-                  <Nextdotjs width='24' height='24'/>
-                  <Docker className='ml-2 mr-1' width='24' height='24'/>
-                  <Tailwindcss className='ml-1 mr-1' width='24' height='24'/>
-                  <Mongodb className='ml-1 mr-1' width='24' height='24'/>
-                  <Postgresql className='ml-1 mr-1' width='24' height='24'/>
-                  <Powershell className='ml-1 mr-1' width='24' height='24'/>
-                  <Visualstudiocode color='#007ACC' className='ml-1 mr-1' width='24' height='24'/>
+                  <Rust className='ml-1 mr-1' width='24' height='24' />
+                  <Typescript className='ml-1 mr-1' width='24' height='24' />
+                  <Html5 className='ml-1 mr-1' width='24' height='24' />
+                  <CssThree className='ml-1 mr-1' width='24' height='24' />
+                  <Sass className='ml-1 mr-1' width='24' height='24' />
+                  <Nextdotjs width='24' height='24' />
+                  <Docker className='ml-2 mr-1' width='24' height='24' />
+                  <Tailwindcss className='ml-1 mr-1' width='24' height='24' />
+                  <Mongodb className='ml-1 mr-1' width='24' height='24' />
+                  <Postgresql className='ml-1 mr-1' width='24' height='24' />
+                  <Powershell className='ml-1 mr-1' width='24' height='24' />
+                  <Visualstudiocode
+                    color='#007ACC'
+                    className='ml-1 mr-1'
+                    width='24'
+                    height='24'
+                  />
                 </div>
               </h1>
               <div className='text-white py-2 text-lg'>
@@ -78,34 +104,38 @@ const Index: NextPage = () => {
               </div>
             </div>
 
-            <div className='info-box pt-12'>
-              <h2>Programming.</h2>
-              <p className='text-lg text-gray-200'>
-                Ever since I started learning{' '}
-                <span className='text-pink-300'>Programming</span>, I fell in{' '}
-                <span className='text-pink-300'>Love</span>. I try to keep most
-                of my projects{' '}
-                <a
-                  className='text-pink-300'
-                  href='https://github.com/ArtieFuzzz?tab=repositories'
-                >
-                  Open-Sourced
-                </a>.
-              </p>
+            <div className='items-start justify-center flex pt-12'>
+              <div className='info-box'>
+                <h2>Programming.</h2>
+                <p className='text-lg text-gray-200'>
+                  Ever since I started learning{' '}
+                  <span className='text-pink-300'>Programming</span>, I fell in{' '}
+                  <span className='text-pink-300'>Love</span>. I try to keep
+                  most of my projects{' '}
+                  <a
+                    className='text-pink-300'
+                    href='https://github.com/ArtieFuzzz?tab=repositories'
+                  >
+                    Open-Sourced
+                  </a>
+                  .
+                </p>
+              </div>
+
+              <div className='info-box2 ml-72'>
+                <h2>Hobbies.</h2>
+                <p className='text-lg text-gray-200'>
+                  I love Listening to{' '}
+                  <span className='text-pink-300'>Music</span>, playing{' '}
+                  <span className='text-pink-300'>Games</span>,{' '}
+                  <span className='text-pink-300'>Relaxing</span> and{' '}
+                  <span className='text-pink-300'>Talking</span> to my{' '}
+                  <span className='text-pink-300'>Friends</span>.
+                </p>
+              </div>
             </div>
           </div>
-          <div className='justify-evenly lg:flex flex-col items-center max-w-xl'>
-            <div className='info-box2 bottom'>
-              <h2>Hobbies.</h2>
-              <p className='text-lg text-gray-200'>
-                I love Listening to <span className='text-pink-300'>Music</span>
-                , playing <span className='text-pink-300'>Games</span>,{' '}
-                <span className='text-pink-300'>Relaxing</span> and{' '}
-                <span className='text-pink-300'>Talking</span> to my{' '}
-                <span className='text-pink-300'>Friends</span>.
-              </p>
-            </div>
-          </div>
+          <div className='justify-evenly lg:flex flex-col items-center max-w-xl'></div>
         </div>
       </div>
 
@@ -115,7 +145,7 @@ const Index: NextPage = () => {
       >
         <footer
           className='text-center align-bottom fixed inset-x-0 bottom-10 text-white'
-          style={{ fontSize: ' 1rem' }}
+          style={{ fontSize: '1rem' }}
         >
           Copyright &copy; 2022 - Present |
           <a href='https://github.com/ArtieFuzzz'> ArtieFuzzz </a> | (
