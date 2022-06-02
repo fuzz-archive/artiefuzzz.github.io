@@ -73,22 +73,22 @@ const Index: NextPage = () => {
           <div className='justify-evenly flex flex-col items-start mx-w-xl'>
             <div>
               <h1 className='text-6xl font-bold m-0'>
-                Hello, {"I'm"} <span className='text-pink-300'>ArtieFuzzz</span>
+                Hello, {"I'm"} <span className='text-pink-300'>Artie</span>
                 .
                 <div
                   className='flex items-start justify-center'
                   style={{ paddingLeft: '17rem' }}
                 >
-                  <Nodedotjs className='ml-1 mr-1' width='24' height='24' />
+                  <Nodedotjs color='#339933' className='ml-1 mr-1' width='24' height='24' />
                   <Rust className='ml-1 mr-1' width='24' height='24' />
-                  <Typescript className='ml-1 mr-1' width='24' height='24' />
-                  <Html5 className='ml-1 mr-1' width='24' height='24' />
-                  <CssThree className='ml-1 mr-1' width='24' height='24' />
-                  <Sass className='ml-1 mr-1' width='24' height='24' />
+                  <Typescript color='#3178C6' className='ml-1 mr-1' width='24' height='24' />
+                  <Html5 color='#E34F26' className='ml-1 mr-1' width='24' height='24' />
+                  <CssThree color='#1572B6' className='ml-1 mr-1' width='24' height='24' />
+                  <Sass color='#CC6699' className='ml-1 mr-1' width='24' height='24' />
                   <Nextdotjs className='ml-1 mr-1' width='24' height='24' />
-                  <Docker className='ml-1 mr-1' width='24' height='24' />
-                  <Tailwindcss className='ml-1 mr-1' width='24' height='24' />
-                  <Mongodb className='ml-1 mr-1' width='24' height='24' />
+                  <Docker color='#2496ED' className='ml-1 mr-1' width='24' height='24' />
+                  <Tailwindcss color='#06B6D4' className='ml-1 mr-1' width='24' height='24' />
+                  <Mongodb color='#47A248' className='ml-1 mr-1' width='24' height='24' />
                   <Postgresql className='ml-1 mr-1' width='24' height='24' />
                   <Powershell className='ml-1 mr-1' width='24' height='24' />
                   <Visualstudiocode
