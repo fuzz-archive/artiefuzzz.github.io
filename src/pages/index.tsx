@@ -46,6 +46,7 @@ const Index: NextPage = () => {
             alt='Profile Picture'
             width='64'
             height='64'
+            draggable='false'
           />
         </div>
         <div className='w-full block flex-grow lg:flex lg:items-center lg:w-auto'>
@@ -76,7 +77,7 @@ const Index: NextPage = () => {
                 .
                 <div
                   className='flex items-start justify-center'
-                  style={{ paddingLeft: '16.9rem' }}
+                  style={{ paddingLeft: '17rem' }}
                 >
                   <Nodedotjs className='ml-1 mr-1' width='24' height='24' />
                   <Rust className='ml-1 mr-1' width='24' height='24' />
@@ -84,8 +85,8 @@ const Index: NextPage = () => {
                   <Html5 className='ml-1 mr-1' width='24' height='24' />
                   <CssThree className='ml-1 mr-1' width='24' height='24' />
                   <Sass className='ml-1 mr-1' width='24' height='24' />
-                  <Nextdotjs width='24' height='24' />
-                  <Docker className='ml-2 mr-1' width='24' height='24' />
+                  <Nextdotjs className='ml-1 mr-1' width='24' height='24' />
+                  <Docker className='ml-1 mr-1' width='24' height='24' />
                   <Tailwindcss className='ml-1 mr-1' width='24' height='24' />
                   <Mongodb className='ml-1 mr-1' width='24' height='24' />
                   <Postgresql className='ml-1 mr-1' width='24' height='24' />

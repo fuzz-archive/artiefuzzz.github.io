@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-$selection-color: #40aafe;
+$selection-color: #f9a8d4;
 
 ::-moz-selection {
   background: $selection-color;
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-image: url('/background.jpg');
+  // background-image: url('/background.jpg');
   background-color: #262336;
   background-size: cover;
   background-attachment: fixed;
@@ -81,7 +81,7 @@ p {
 }
 
 .nav-item {
-  @apply block lg:inline-block text-white mr-6 hover:text-blue-300 font-semibold;
+  @apply block lg:inline-block text-white mr-6 hover:text-pink-200 font-semibold;
   margin-top: .45rem
 }
 
