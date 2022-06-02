@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <title> Artie  </title>
         <link rel="icon" href="/favicon.png" />
 
-        <meta name='og:title' content='Artie Fuzzz'/>
+        <meta name='og:title' content='Artie'/>
         <meta name='theme-color' content='#f9a8d4'/>
         <meta name='og:image' content={ProfilePicture.src}/>
         <meta name='og:description' content='Self Taught Frontend / Backend Developer'/>
