@@ -2,7 +2,7 @@
 import { Github, Steam, Wakatime } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
 import { useLanyard } from 'use-lanyard'
-import ProfilePicture from '../static/profilepic.png'
+import ProfilePicture from '../../public/profilepic.png'
 
 const Index: NextPage = () => {
   const discordData = useLanyard('389252140184633363')

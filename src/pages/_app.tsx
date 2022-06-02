@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import ProfilePicture from '../static/profilepic.png'
+import ProfilePicture from '../../public/profilepic.png'
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title> Artie  </title>
+        <link rel="icon" href="/favicon.png" />
 
         <meta name='og:title' content='Artie Fuzzz'/>
         <meta name='theme-color' content='#f9a8d4'/>
