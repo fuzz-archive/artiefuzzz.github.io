@@ -68,7 +68,7 @@ const Index: NextPage = () => {
       </nav>
       {/* I'm trying to make the website look nice, but uhhh this code isn't looking neat... Does it matter? To me? I don't mind
           Perhaps in the future I'm gonna cringe at the fact this code is messy... */}
-      <div className='prose prose-zinc dark:prose-invert max-w-screen-2xl mx-auto px-4 sm:px-7 lg:px-9 pb-5'>
+      <div className='prose prose-zinc dark:prose-invert max-w-screen-2xl mx-auto px-4 sm:px-7 lg:px-9 pb-5 md:pt-10'>
         <div className='flex flex-col lg:flex-row justify-between gap-x-8 py-8 lg:py-16'>
           <div className='flex flex-col justify-evenly items-start mx-w-xl'>
             <h1 className='text-6xl font-bold m-0'>
