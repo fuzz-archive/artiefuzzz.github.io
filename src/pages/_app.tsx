@@ -7,10 +7,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title> Fuzzy </title>
+        <title> Artie  </title>
 
         <meta name='og:title' content='Artie Fuzzz'/>
-        <meta name='theme-color' content='#6e62d1'/>
+        <meta name='theme-color' content='#f9a8d4'/>
         <meta name='og:image' content={ProfilePicture.src}/>
         <meta name='og:description' content='Self Taught Frontend / Backend Developer'/>
         <meta name='description' content='Self Taught Frontend / Backend Developer'/>
