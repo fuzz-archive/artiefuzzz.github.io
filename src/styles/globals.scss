@@ -25,6 +25,7 @@ body {
   background-attachment: fixed;
   background-blend-mode: overlay;
   background-position: center;
+  margin: 0;
 }
 
 a {
@@ -35,11 +36,6 @@ a {
 h1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 6ex;
-}
-
-.middle {
-  height: 85vh;
 }
 
 * {
@@ -52,8 +48,13 @@ h1 {
   margin-top: -0.5em;
 }
 
+h2 {
+  height: 10px;
+}
+
 p {
   color: white;
+  font-size: 1.4rem;
 }
 
 .btn-round-outline-blue {
@@ -79,12 +80,22 @@ p {
 
 }
 
-h2 {
-  font-size: 7.3ex;
-  color: white
+.nav-item {
+  @apply block lg:inline-block text-white mr-6 hover:text-blue-300 font-semibold;
+  margin-top: .45rem
 }
 
-.nav-item {
-  @apply block lg:inline-block text-white mr-4 hover:text-blue-300 font-semibold;
-  margin-top: .45rem
+.info-box {
+  width: 600px;
+  height: 180px;
+}
+
+
+.info-box2 {
+  width: 550px;
+  height: 180px;
+}
+
+.bottom {
+  padding-top: 10rem;
 }

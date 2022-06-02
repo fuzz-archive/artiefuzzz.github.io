@@ -21,8 +21,8 @@ const Index: NextPage = () => {
 
   return (
     <>
-      <nav className='flex items-center justify-between flex-wrap p-3'>
-        <div className='flex items-center flex-shrink-0 text-white mr-5 px-1'>
+      <nav className='flex items-center justify-between flex-wrap p-3 mx-auto pb-20'>
+        <div className='flex items-center flex-shrink-0 text-white mr-3 px-1'>
           <img
             src={ProfilePicture.src}
             className={`rounded-full ring-2 p-1 mr-3 ${statuses[status]} dark:border-gray-800`}
@@ -30,12 +30,9 @@ const Index: NextPage = () => {
             width='64'
             height='64'
           />
-          <span className='font-semibold text-xl tracking-tight'>
-            ArtieFuzzz
-          </span>
         </div>
         <div className='w-full block flex-grow lg:flex lg:items-center lg:w-auto'>
-          <div className='text-sm lg:flex-grow'>
+          <div className='lg:flex-grow'>
             <a href='#' className='nav-item'>
               <Github />
             </a>
@@ -51,14 +48,38 @@ const Index: NextPage = () => {
           </div>
         </div>
       </nav>
+      {/* I'm trying to make the website look nice, but uhhh this code isn't looking neat... Does it matter? To me? I don't mind
+          Perhaps in the future I'm gonna cringe at the fact this code is messy... */}
+      <div className='lg:pb-40 pb-8 prose dark:prose-invert max-w-screen-2xl px-4 sm:px-6 lg:px-10 mx-auto'>
+        <div className='flex flex-col lg:flex-row justify-between gap-x10 py-8 lg:py-16'>
+          <div className='justify-evenly flex flex-col items-start mx-w-xl'>
+            <div className='pb-5 lg:pb-0'>
+              <h1 className='text-6xl font-bold m-0'>
+                Hello, {"I'm"}{' '}
+                <span className='text-pink-300'>ArtieFuzzz.</span>
+              </h1>
+              <div className='text-white py-2 text-2xl'>
+                Self Taught programmer from Australia doing Frontend and Backend
+              </div>
+            </div>
 
-      <div className='justify-evenly items-center flex text-center'>
-        <div
-          className='lg:grid lg:text-center lg:relative mb-5 text-center gap-4'
-          style={{ right: -40, bottom: -20 }}
-        >
-          <h1>ArtieFuzzz</h1>
-          <p className='tagline'>Self - Taught Backend / Frontend Developer.</p>
+            <div className='info-box'>
+              <h2>Programming Is My Hobby.</h2>
+              <p>Ever since I started learning <span className='text-pink-300'>Programming</span> I fell in <span className='text-pink-300'>Love</span>.</p>
+            </div>
+          </div>
+          <div className='justify-evenly lg:flex flex-col items-center max-w-xl mx-auto'>
+            <div className='info-box2 bottom'>
+              <h2>Other Hobbies</h2>
+              <p>
+                I love to Listen to <span className='text-pink-300'>Music</span>
+                , play <span className='text-pink-300'>Games</span>,{' '}
+                <span className='text-pink-300'>Relax</span> and{' '}
+                <span className='text-pink-300'>Talking</span> to my{' '}
+                <span className='text-pink-300'>Friends</span>.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -66,14 +87,17 @@ const Index: NextPage = () => {
         className='flex mx-auto text-center items-center justify-center'
         style={{ bottom: 100 }}
       >
-        <p className='text-center' style={{ fontSize: ' 1.2rem' }}>
+        <footer
+          className='text-center align-bottom fixed inset-x-0 bottom-10 text-white'
+          style={{ fontSize: ' 1.2rem' }}
+        >
           Copyright &copy; 2022 - Present |
           <a href='https://github.com/ArtieFuzzz'> ArtieFuzzz </a> | (
           <a href='https://www.pixiv.net/en/artworks/97122460'>
             Background Source
           </a>
           )
-        </p>
+        </footer>
       </div>
     </>
   )
