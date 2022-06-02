@@ -59,7 +59,7 @@ const Index: NextPage = () => {
                 .
               </h1>
               <div className='text-white py-2 text-lg'>
-                Self-Taught Programmer from Australia doing Frontend and Backend
+                Self - Taught Programmer from Australia doing Frontend and Backend
               </div>
             </div>
 
