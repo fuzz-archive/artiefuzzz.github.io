@@ -13,8 +13,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='og:title' content='Artie'/>
         <meta name='theme-color' content='#f9a8d4'/>
         <meta name='og:image' content={ProfilePicture.src}/>
-        <meta name='og:description' content='Self Taught Frontend / Backend Developer'/>
-        <meta name='description' content='Self Taught Frontend / Backend Developer'/>
+        <meta name='og:description' content='Australian Developer doing Frontend and Backend'/>
+        <meta name='description' content='Australian Developer doing Frontend and Backend'/>
         <meta name='og:url' content='https://artiefuzzz.is-a.dev'/>
         <meta name='og:site_name' content='Artie'/>
         <meta name='keywords' content='ArtieFuzzz, Artie, Fuzzz'/>
