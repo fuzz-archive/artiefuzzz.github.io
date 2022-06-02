@@ -63,16 +63,16 @@ const Index: NextPage = () => {
               </div>
             </div>
 
-            <div className='info-box pt-12 pl-12'>
-              <h2>Programming Is My Favorite Hobby.</h2>
+            <div className='info-box pt-12'>
+              <h2>Programming.</h2>
               <p className='text-lg text-gray-200'>
                 Ever since I started learning{' '}
                 <span className='text-pink-300'>Programming</span>, I fell in{' '}
-                <span className='text-pink-300'>Love</span>.
+                <span className='text-pink-300'>Love</span>. I try to keep most of my projects <a className='text-pink-300' href='https://github.com/ArtieFuzzz?tab=repositories'>Open-Sourced</a>
               </p>
             </div>
           </div>
-          <div className='justify-evenly lg:flex flex-col items-center max-w-xl mx-auto'>
+          <div className='justify-evenly lg:flex flex-col items-center max-w-xl'>
             <div className='info-box2 bottom'>
               <h2>Other Hobbies.</h2>
               <p className='text-lg text-gray-200'>
@@ -93,7 +93,7 @@ const Index: NextPage = () => {
       >
         <footer
           className='text-center align-bottom fixed inset-x-0 bottom-10 text-white'
-          style={{ fontSize: ' 1.2rem' }}
+          style={{ fontSize: ' 1rem' }}
         >
           Copyright &copy; 2022 - Present |
           <a href='https://github.com/ArtieFuzzz'> ArtieFuzzz </a> | (
