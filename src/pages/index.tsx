@@ -38,7 +38,7 @@ const Index: NextPage = () => {
 
   return (
     <>
-      <nav className='max-w-7xl sm:px-6' style={{ 'paddingLeft': '2.5rem' }}>
+      <nav className='max-w-7xl sm:px-6' style={{ paddingLeft: '2.1rem' }}>
         <div className='w-full pb-12 pt-6 lg:pb-6 flex items-center justify-start'>
           <div className='flex items-center flex-shrink-0 text-white px-1 pr-2'>
             <img
@@ -68,84 +68,76 @@ const Index: NextPage = () => {
       </nav>
       {/* I'm trying to make the website look nice, but uhhh this code isn't looking neat... Does it matter? To me? I don't mind
           Perhaps in the future I'm gonna cringe at the fact this code is messy... */}
-      <div className='lg:pb-40 pb-10 prose dark:prose-invert max-w-screen-2xl px-20 sm:px-6 lg:px-10 mx-auto'>
-        <div className='flex flex-col lg:flex-row justify-between gap-x10 py-12 lg:py-16'>
-          <div className='justify-evenly flex lg:flex-col items-start mx-w-xl'>
-            <div>
-              <h1 className='text-6xl font-bold m-0'>
-                Hello, {"I'm"} <span className='text-pink-300'>Artie</span>.
-              </h1>
-              <div className='text-white py-2 text-lg'>
-                Self - Taught Programmer from Australia doing Frontend and
-                Backend.
-              </div>
-              <div
-                className='flex items-start justify-center'
-                style={{ paddingRight: '17rem' }}
-              >
-                <Nodedotjs
-                  color='#339933'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <Rust className='ml-1 mr-1' width='24' height='24' />
-                <Typescript
-                  color='#3178C6'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <Html5
-                  color='#E34F26'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <CssThree
-                  color='#1572B6'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <Sass
-                  color='#CC6699'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <Nextdotjs className='ml-1 mr-1' width='24' height='24' />
-                <Docker
-                  color='#2496ED'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <Tailwindcss
-                  color='#06B6D4'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <Mongodb
-                  color='#47A248'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-                <Postgresql className='ml-1 mr-1' width='24' height='24' />
-                <Powershell className='ml-1 mr-1' width='24' height='24' />
-                <Visualstudiocode
-                  color='#007ACC'
-                  className='ml-1 mr-1'
-                  width='24'
-                  height='24'
-                />
-              </div>
+      <div className='prose prose-zinc dark:prose-invert max-w-screen-2xl mx-auto px-4 sm:px-7 lg:px-9 pb-5'>
+        <div className='flex flex-col lg:flex-row justify-between gap-x-8 py-8 lg:py-16'>
+          <div className='flex flex-col justify-evenly items-start mx-w-xl'>
+            <h1 className='text-6xl font-bold m-0'>
+              Hello, {"I'm"} <span className='text-pink-300'>Artie</span>.
+            </h1>
+            <div className='text-white py-2 text-lg'>
+              Self - Taught Programmer from Australia doing Frontend and
+              Backend.
             </div>
-
-            <div className='items-start justify-center flex pt-12'>
-              <div className='info-box'>
+            <div
+              className='flex align-start items-start justify-center'
+              style={{ paddingRight: '33rem' }}
+            >
+              <Nodedotjs
+                color='#339933'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Rust className='ml-1 mr-1' width='24' height='24' />
+              <Typescript
+                color='#3178C6'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Html5
+                color='#E34F26'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <CssThree
+                color='#1572B6'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Sass
+                color='#CC6699'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Nextdotjs className='ml-1 mr-1' width='24' height='24' />
+              <Docker
+                color='#2496ED'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Tailwindcss
+                color='#06B6D4'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Mongodb
+                color='#47A248'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Postgresql className='ml-1 mr-1' width='24' height='24' />
+              <Powershell className='ml-1 mr-1' width='24' height='24' />
+              <Visualstudiocode color='#007ACC' className='ml-1 mr-1' />
+            </div>
+            <div className='items-start justify-evenly flex-col pt-12 lg:flex max-w-lg'>
+              <div>
                 <h2>Programming.</h2>
                 <p className='text-lg text-gray-200'>
                   Ever since I started learning{' '}
@@ -161,21 +153,20 @@ const Index: NextPage = () => {
                   .
                 </p>
               </div>
-
-              <div className='info-box2 ml-72'>
-                <h2>Hobbies.</h2>
-                <p className='text-lg text-gray-200'>
-                  I love Listening to{' '}
-                  <span className='text-pink-300'>Music</span>, playing{' '}
-                  <span className='text-pink-300'>Games</span>,{' '}
-                  <span className='text-pink-300'>Relaxing</span> and{' '}
-                  <span className='text-pink-300'>Talking</span> to my{' '}
-                  <span className='text-pink-300'>Friends</span>.
-                </p>
-              </div>
             </div>
           </div>
-          <div className='justify-evenly lg:flex flex-col items-center max-w-xl'></div>
+          <div className='items-center justify-evenly flex-col lg:flex max-w-lg lg:pt-48'>
+            <div>
+              <h2>Hobbies.</h2>
+              <p className='text-lg text-gray-200'>
+                I love Listening to <span className='text-pink-300'>Music</span>
+                , playing <span className='text-pink-300'>Games</span>,{' '}
+                <span className='text-pink-300'>Relaxing</span> and{' '}
+                <span className='text-pink-300'>Talking</span> to my{' '}
+                <span className='text-pink-300'>Friends</span>.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
