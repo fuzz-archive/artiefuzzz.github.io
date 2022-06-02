@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { Github, Steam, Wakatime } from '@icons-pack/react-simple-icons'
+import { CssThree, Docker, Github, Html5, Mongodb, Nextdotjs, Nodedotjs, Postgresql, Powershell, Rust, Sass, Steam, Tailwindcss, Typescript, Visualstudiocode, Wakatime } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
 import { useLanyard } from 'use-lanyard'
 import ProfilePicture from '../../public/profilepic.png'
@@ -55,8 +55,22 @@ const Index: NextPage = () => {
           <div className='justify-evenly flex flex-col items-start mx-w-xl'>
             <div className='pb-5 lg:pb-0'>
               <h1 className='text-6xl font-bold m-0'>
-                Hello, {"I'm"} <span className='text-pink-300'>ArtieFuzzz</span>
-                .
+                Hello, {"I'm"} <span className='text-pink-300'>ArtieFuzzz</span>.
+                <div className='flex items-start justify-center' style={{ 'paddingLeft': '16.9rem' }}>
+                  <Nodedotjs className='ml-1 mr-1' width='24' height='24' />
+                  <Rust className='ml-1 mr-1' width='24' height='24'/>
+                  <Typescript className='ml-1 mr-1' width='24' height='24'/>
+                  <Html5 className='ml-1 mr-1' width='24' height='24'/>
+                  <CssThree className='ml-1 mr-1' width='24' height='24'/>
+                  <Sass className='ml-1 mr-1' width='24' height='24'/>
+                  <Nextdotjs width='24' height='24'/>
+                  <Docker className='ml-2 mr-1' width='24' height='24'/>
+                  <Tailwindcss className='ml-1 mr-1' width='24' height='24'/>
+                  <Mongodb className='ml-1 mr-1' width='24' height='24'/>
+                  <Postgresql className='ml-1 mr-1' width='24' height='24'/>
+                  <Powershell className='ml-1 mr-1' width='24' height='24'/>
+                  <Visualstudiocode color='#007ACC' className='ml-1 mr-1' width='24' height='24'/>
+                </div>
               </h1>
               <div className='text-white py-2 text-lg'>
                 Self - Taught Programmer from Australia doing Frontend and
@@ -82,7 +96,7 @@ const Index: NextPage = () => {
           </div>
           <div className='justify-evenly lg:flex flex-col items-center max-w-xl'>
             <div className='info-box2 bottom'>
-              <h2>Other Hobbies.</h2>
+              <h2>Hobbies.</h2>
               <p className='text-lg text-gray-200'>
                 I love Listening to <span className='text-pink-300'>Music</span>
                 , playing <span className='text-pink-300'>Games</span>,{' '}
