@@ -2,20 +2,7 @@
 import {
   CssThree,
   Docker,
-  Github,
-  Html5,
-  Mongodb,
-  Nextdotjs,
-  Nodedotjs,
-  Postgresql,
-  Powershell,
-  Rust,
-  Sass,
-  Steam,
-  Tailwindcss,
-  Typescript,
-  Visualstudiocode,
-  Wakatime
+  Github, Html5, Mongodb, Nextdotjs, Nodedotjs, Postgresql, Powershell, Rust, Sass, Steam, Tailwindcss, Typescript, Visualstudiocode, Wakatime
 } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
 import { useLanyard } from 'use-lanyard'
@@ -73,11 +60,15 @@ const Index: NextPage = () => {
           <div className='justify-evenly flex flex-col items-start mx-w-xl'>
             <div>
               <h1 className='text-6xl font-bold m-0'>
-                Hello, {"I'm"} <span className='text-pink-300'>Artie</span>
-                .
-                <div
+                Hello, {"I'm"} <span className='text-pink-300'>Artie</span>.
+              </h1>
+              <div className='text-white py-2 text-lg'>
+                Self - Taught Programmer from Australia doing Frontend and
+                Backend.
+              </div>
+              <div
                   className='flex items-start justify-center'
-                  style={{ paddingLeft: '17rem' }}
+                  style={{ paddingRight: '17rem' }}
                 >
                   <Nodedotjs color='#339933' className='ml-1 mr-1' width='24' height='24' />
                   <Rust className='ml-1 mr-1' width='24' height='24' />
@@ -98,11 +89,6 @@ const Index: NextPage = () => {
                     height='24'
                   />
                 </div>
-              </h1>
-              <div className='text-white py-2 text-lg'>
-                Self - Taught Programmer from Australia doing Frontend and
-                Backend.
-              </div>
             </div>
 
             <div className='items-start justify-center flex pt-12'>
