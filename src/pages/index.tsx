@@ -101,6 +101,8 @@ const Index: NextPage = () => {
             Background Source
           </a>
           )
+          <br />
+          <a href="https://www.flaticon.com/free-icons/rose" title="rose icons">Rose icons created by Freepik - Flaticon</a>
         </footer>
       </div>
     </>
