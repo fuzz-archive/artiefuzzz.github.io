@@ -84,9 +84,9 @@ const Index: NextPage = () => {
             <div className='info-box2 bottom'>
               <h2>Other Hobbies.</h2>
               <p className='text-lg text-gray-200'>
-                I love to Listen to <span className='text-pink-300'>Music</span>
-                , play <span className='text-pink-300'>Games</span>,{' '}
-                <span className='text-pink-300'>Relax</span> and{' '}
+                I love Listening to <span className='text-pink-300'>Music</span>
+                , playing <span className='text-pink-300'>Games</span>,{' '}
+                <span className='text-pink-300'>Relaxing</span> and{' '}
                 <span className='text-pink-300'>Talking</span> to my{' '}
                 <span className='text-pink-300'>Friends</span>.
               </p>
