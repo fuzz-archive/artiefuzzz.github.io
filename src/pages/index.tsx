@@ -50,8 +50,8 @@ const Index: NextPage = () => {
       </nav>
       {/* I'm trying to make the website look nice, but uhhh this code isn't looking neat... Does it matter? To me? I don't mind
           Perhaps in the future I'm gonna cringe at the fact this code is messy... */}
-      <div className='lg:pb-40 pb-8 prose dark:prose-invert max-w-screen-2xl px-4 sm:px-6 lg:px-10 mx-auto'>
-        <div className='flex flex-col lg:flex-row justify-between gap-x10 py-8 lg:py-16'>
+      <div className='lg:pb-40 pb-10 prose dark:prose-invert max-w-screen-2xl px-20 sm:px-6 lg:px-10 mx-auto'>
+        <div className='flex flex-col lg:flex-row justify-between gap-x10 py-12 lg:py-16'>
           <div className='justify-evenly flex flex-col items-start mx-w-xl'>
             <div className='pb-5 lg:pb-0'>
               <h1 className='text-6xl font-bold m-0'>
@@ -63,8 +63,8 @@ const Index: NextPage = () => {
               </div>
             </div>
 
-            <div className='info-box'>
-              <h2>Programming Is My Hobby.</h2>
+            <div className='info-box pt-12 pl-12'>
+              <h2>Programming Is My Favorite Hobby.</h2>
               <p className='text-lg text-gray-200'>
                 Ever since I started learning{' '}
                 <span className='text-pink-300'>Programming</span>, I fell in{' '}
@@ -74,7 +74,7 @@ const Index: NextPage = () => {
           </div>
           <div className='justify-evenly lg:flex flex-col items-center max-w-xl mx-auto'>
             <div className='info-box2 bottom'>
-              <h2>Other Hobbies</h2>
+              <h2>Other Hobbies.</h2>
               <p className='text-lg text-gray-200'>
                 I love to Listen to <span className='text-pink-300'>Music</span>
                 , play <span className='text-pink-300'>Games</span>,{' '}
@@ -102,7 +102,9 @@ const Index: NextPage = () => {
           </a>
           )
           <br />
-          <a href="https://www.flaticon.com/free-icons/rose" title="rose icons">Rose icons created by Freepik - Flaticon</a>
+          <a href='https://www.flaticon.com/free-icons/rose' title='rose icons'>
+            Rose icons created by Freepik - Flaticon
+          </a>
         </footer>
       </div>
     </>
