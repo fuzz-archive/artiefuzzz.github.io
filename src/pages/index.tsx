@@ -53,7 +53,7 @@ const Index: NextPage = () => {
       <div className='lg:pb-40 pb-10 prose dark:prose-invert max-w-screen-2xl px-20 sm:px-6 lg:px-10 mx-auto'>
         <div className='flex flex-col lg:flex-row justify-between gap-x10 py-12 lg:py-16'>
           <div className='justify-evenly flex flex-col items-start mx-w-xl'>
-            <div className='pb-5 lg:pb-0'>
+            <div>
               <h1 className='text-6xl font-bold m-0'>
                 Hello, {"I'm"} <span className='text-pink-300'>ArtieFuzzz</span>.
                 <div className='flex items-start justify-center' style={{ 'paddingLeft': '16.9rem' }}>
