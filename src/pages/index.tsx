@@ -2,6 +2,7 @@
 import {
   CssThree,
   Docker,
+  Elixir,
   Github,
   Html5,
   Mongodb,
@@ -15,7 +16,7 @@ import {
   Tailwindcss,
   Typescript,
   Visualstudiocode,
-  Wakatime
+  Wakatime,
 } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
 import { useLanyard } from 'use-lanyard'
@@ -89,6 +90,12 @@ const Index: NextPage = () => {
                 height='24'
               />
               <Rust className='ml-1 mr-1' width='24' height='24' />
+              <Elixir
+                color='#4B275F'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
               <Typescript
                 color='#3178C6'
                 className='ml-1 mr-1'
