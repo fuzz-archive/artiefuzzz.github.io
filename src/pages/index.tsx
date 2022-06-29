@@ -16,7 +16,7 @@ import {
   Tailwindcss,
   Typescript,
   Visualstudiocode,
-  Wakatime,
+  Wakatime
 } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
 import { useLanyard } from 'use-lanyard'
@@ -182,7 +182,7 @@ const Index: NextPage = () => {
         style={{ bottom: 100 }}
       >
         <footer
-          className='text-center align-bottom fixed inset-x-0 bottom-10 text-white'
+          className='text-center align-bottom lg:fixed inset-x-0 bottom-10 text-white'
           style={{ fontSize: '1rem' }}
         >
           Copyright &copy; 2022 - Present |
