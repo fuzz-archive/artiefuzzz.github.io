@@ -19,6 +19,7 @@ import {
   Wakatime
 } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
+import Link from 'next/link'
 import { useLanyard } from 'use-lanyard'
 import ProfilePicture from '../../public/profilepic.png'
 
@@ -64,6 +65,12 @@ const Index: NextPage = () => {
             >
               <Steam />
             </a>
+            <Link
+              href='/projects'
+            >
+              {/* @ts-ignore */}
+              <a className='nav-item'><Visualstudiocode displayName='Projects' /></a>
+            </Link>
           </div>
         </div>
       </nav>
