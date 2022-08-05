@@ -68,8 +68,7 @@ const Index: NextPage = () => {
             <Link
               href='/projects'
             >
-              {/* @ts-ignore */}
-              <a className='nav-item'><Visualstudiocode displayName='Projects' /></a>
+              <a className='nav-item'><Visualstudiocode/></a>
             </Link>
           </div>
         </div>
