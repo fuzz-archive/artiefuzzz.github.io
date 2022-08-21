@@ -65,17 +65,17 @@ const Index: NextPage = () => {
             >
               <Steam />
             </a>
-            <Link
-              href='/projects'
-            >
-              <a className='nav-item'><Visualstudiocode/></a>
+            <Link href='/projects'>
+              <a className='nav-item'>
+                <Visualstudiocode />
+              </a>
             </Link>
           </div>
         </div>
       </nav>
       {/* I'm trying to make the website look nice, but uhhh this code isn't looking neat... Does it matter? To me? I don't mind
           Perhaps in the future I'm gonna cringe at the fact this code is messy... */}
-      <div className='prose prose-zinc dark:prose-invert max-w-screen-2xl mx-auto px-4 sm:px-7 lg:px-9 pb-5 md:pt-10'>
+      <div className='prose prose-zinc dark:prose-invert max-w-screen-2xl mx-auto px-4 sm:px-7 lg:px-9 pb-5 md:pt-[2.8rem]'>
         <div className='flex flex-col lg:flex-row justify-between gap-x-8 py-8 lg:py-16'>
           <div className='flex flex-col justify-evenly items-start mx-w-xl'>
             <h1 className='text-6xl font-bold m-0'>
@@ -153,17 +153,10 @@ const Index: NextPage = () => {
               <div>
                 <h2>Programming.</h2>
                 <p className='text-lg text-gray-200'>
-                  Ever since I started learning{' '}
+                  Ever since I started{' '}
                   <span className='text-pink-300'>Programming</span>, I fell in{' '}
-                  <span className='text-pink-300'>Love</span>. I try to keep
-                  most of my projects{' '}
-                  <a
-                    className='text-pink-300'
-                    href='https://github.com/ArtieFuzzz?tab=repositories'
-                  >
-                    Open-Sourced
-                  </a>
-                  .
+                  <span className='text-pink-300'>Love</span> since there are so
+                  many things I can do with Programming.
                 </p>
               </div>
             </div>
