@@ -5,6 +5,7 @@ import {
   Elixir,
   Github,
   Html5,
+  Kubernetes,
   Mongodb,
   Nextdotjs,
   Nodedotjs,
@@ -148,6 +149,12 @@ const Index: NextPage = () => {
               <Postgresql className='ml-1 mr-1' width='24' height='24' />
               <Powershell className='ml-1 mr-1' width='24' height='24' />
               <Visualstudiocode color='#007ACC' className='ml-1 mr-1' />
+              <Kubernetes
+                color='#326CE5'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
             </div>
             <div className='items-start justify-evenly flex-col pt-12 lg:flex max-w-lg'>
               <div>
