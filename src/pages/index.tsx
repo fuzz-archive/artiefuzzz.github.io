@@ -21,6 +21,7 @@ import {
 } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import Script from 'next/script'
 import { useLanyard } from 'use-lanyard'
 import ProfilePicture from '../../public/profilepic.png'
 
@@ -79,15 +80,17 @@ const Index: NextPage = () => {
       <div className='prose prose-zinc dark:prose-invert max-w-screen-2xl mx-auto px-4 sm:px-7 lg:px-9 pb-5 md:pt-[2.8rem]'>
         <div className='flex flex-col lg:flex-row justify-between gap-x-8 py-8 lg:py-16'>
           <div className='flex flex-col justify-evenly items-start mx-w-xl'>
-            <h1 className='text-6xl font-bold m-0'>
+            <h1 className='text-6xl font-bold m-0 text-white'>
               Hello, {"I'm"} <span className='text-pink-300'>Artie</span>.
             </h1>
             <div className='text-white py-2 text-lg'>
               Self - Taught Programmer from Australia doing Frontend and
               Backend.
             </div>
+            <Script defer={true} src='/show.js' />
             <div
-              className='flex align-start items-start justify-center'
+              className='flex align-start items-start justify-center hide'
+              id='icon-fade'
               style={{ paddingRight: '33rem' }}
             >
               <Nodedotjs
@@ -96,7 +99,12 @@ const Index: NextPage = () => {
                 width='24'
                 height='24'
               />
-              <Rust className='ml-1 mr-1' width='24' height='24' />
+              <Rust
+                color='#FFFFFF'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
               <Elixir
                 color='#4B275F'
                 className='ml-1 mr-1'
@@ -127,7 +135,12 @@ const Index: NextPage = () => {
                 width='24'
                 height='24'
               />
-              <Nextdotjs className='ml-1 mr-1' width='24' height='24' />
+              <Nextdotjs
+                color='#FFFFFF'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
               <Docker
                 color='#2496ED'
                 className='ml-1 mr-1'
@@ -146,8 +159,18 @@ const Index: NextPage = () => {
                 width='24'
                 height='24'
               />
-              <Postgresql className='ml-1 mr-1' width='24' height='24' />
-              <Powershell className='ml-1 mr-1' width='24' height='24' />
+              <Postgresql
+                color='#FFFFFF'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
+              <Powershell
+                color='#5391FE'
+                className='ml-1 mr-1'
+                width='24'
+                height='24'
+              />
               <Visualstudiocode color='#007ACC' className='ml-1 mr-1' />
               <Kubernetes
                 color='#326CE5'
@@ -158,7 +181,7 @@ const Index: NextPage = () => {
             </div>
             <div className='items-start justify-evenly flex-col pt-12 lg:flex max-w-lg'>
               <div>
-                <h2>Programming.</h2>
+                <h2 className='text-white'>Programming.</h2>
                 <p className='text-lg text-gray-200'>
                   Ever since I started{' '}
                   <span className='text-pink-300'>Programming</span>, I fell in{' '}
@@ -170,7 +193,7 @@ const Index: NextPage = () => {
           </div>
           <div className='items-center justify-evenly flex-col lg:flex max-w-lg lg:pt-48'>
             <div>
-              <h2>Hobbies.</h2>
+              <h2 className='text-white'>Hobbies.</h2>
               <p className='text-lg text-gray-200'>
                 I love Listening to <span className='text-pink-300'>Music</span>
                 , playing <span className='text-pink-300'>Games</span>,{' '}
