@@ -87,7 +87,7 @@ const Index: NextPage = () => {
               Self - Taught Programmer from Australia doing Frontend and
               Backend.
             </div>
-            <Script defer={true} src='/show.js' />
+            <Script async={true} src='/show.js' />
             <div
               className='flex align-start items-start justify-center hide'
               id='icon-fade'

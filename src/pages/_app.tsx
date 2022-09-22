@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='og:site_name' content='Artie' />
         <meta name='keywords' content='ArtieFuzzz, Artie, Fuzzz' />
 
-        <script async src='https://arc.io/widget.min.js#RHQdmiNq' />
+        <script async src='https://arc.io/widget.min.js#RHQdmiNq' type='text/javascript' />
       </Head>
 
       <Component {...pageProps} />
