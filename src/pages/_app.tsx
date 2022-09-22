@@ -7,9 +7,7 @@ import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    // eslint-disable-next-line react/jsx-no-comment-textnodes
     <>
-      // eslint-disable-next-line @next/next/no-script-component-in-head, @next/next/no-script-component-in-head
       <Head>
         <title> Artie </title>
         <link rel='icon' href='/favicon.png' />
