@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import Script from 'next/script'
 import ProfilePicture from '../../public/profilepic.png'
 import '../styles/globals.scss'
 
@@ -19,6 +20,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='og:site_name' content='Artie'/>
         <meta name='keywords' content='ArtieFuzzz, Artie, Fuzzz'/>
       </Head>
+
+      <Script defer={true} src='https://arc.io/widget.min.js#RHQdmiNq'/>
+
       <Component {...pageProps} />
     </>
   )
