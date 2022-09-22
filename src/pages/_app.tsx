@@ -1,11 +1,15 @@
+/* eslint-disable @next/next/no-script-component-in-head */
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
+import Script from 'next/script'
 import ProfilePicture from '../../public/profilepic.png'
 import '../styles/globals.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
+    // eslint-disable-next-line react/jsx-no-comment-textnodes
     <>
+      // eslint-disable-next-line @next/next/no-script-component-in-head, @next/next/no-script-component-in-head
       <Head>
         <title> Artie </title>
         <link rel='icon' href='/favicon.png' />
@@ -25,7 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='og:site_name' content='Artie' />
         <meta name='keywords' content='ArtieFuzzz, Artie, Fuzzz' />
 
-        <script async src='https://arc.io/widget.min.js#RHQdmiNq' type='text/javascript' />
+        <Script async src='https://arc.io/widget.min.js#RHQdmiNq' type='text/javascript'/>
       </Head>
 
       <Component {...pageProps} />
