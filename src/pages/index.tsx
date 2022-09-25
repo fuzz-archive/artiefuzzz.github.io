@@ -1,22 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import {
-  CssThree,
-  Docker,
-  Elixir,
-  Github,
-  Html5,
-  Kubernetes,
-  Mongodb,
-  Nextdotjs,
-  Nodedotjs,
-  Postgresql,
-  Powershell,
-  Rust,
-  Sass,
-  Steam,
-  Tailwindcss,
-  Typescript,
-  Visualstudiocode,
+  Github, Steam, Visualstudiocode,
   Wakatime
 } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
@@ -24,6 +8,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import { useLanyard } from 'use-lanyard'
 import ProfilePicture from '../../public/profilepic.png'
+import Icons from '../components/Icons'
 
 const Index: NextPage = () => {
   const discordData = useLanyard('389252140184633363')
@@ -77,7 +62,7 @@ const Index: NextPage = () => {
       </nav>
       {/* I'm trying to make the website look nice, but uhhh this code isn't looking neat... Does it matter? To me? I don't mind
           Perhaps in the future I'm gonna cringe at the fact this code is messy... */}
-      <div className='prose prose-zinc dark:prose-invert max-w-screen-2xl mx-auto px-4 sm:px-7 lg:px-9 pb-5 md:pt-[2.8rem]'>
+      <div className='prose prose-zinc dark:prose-invert xl:max-w-full md:mx-auto px-4 sm:px-7 lg:px-9 pb-5 md:pt-[2.8rem]'>
         <div className='flex flex-col lg:flex-row justify-between gap-x-8 py-8 lg:py-16'>
           <div className='flex flex-col justify-evenly items-start mx-w-xl'>
             <h1 className='text-6xl font-bold m-0 text-white'>
@@ -93,91 +78,7 @@ const Index: NextPage = () => {
               id='icon-fade'
               style={{ paddingRight: '33rem' }}
             >
-              <Nodedotjs
-                color='#339933'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Rust
-                color='#FFFFFF'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Elixir
-                color='#4B275F'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Typescript
-                color='#3178C6'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Html5
-                color='#E34F26'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <CssThree
-                color='#1572B6'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Sass
-                color='#CC6699'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Nextdotjs
-                color='#FFFFFF'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Docker
-                color='#2496ED'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Tailwindcss
-                color='#06B6D4'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Mongodb
-                color='#47A248'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Postgresql
-                color='#FFFFFF'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Powershell
-                color='#5391FE'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
-              <Visualstudiocode color='#007ACC' className='ml-1 mr-1' />
-              <Kubernetes
-                color='#326CE5'
-                className='ml-1 mr-1'
-                width='24'
-                height='24'
-              />
+              <Icons/>
             </div>
             <div className='items-start justify-evenly flex-col pt-12 lg:flex max-w-lg'>
               <div>
