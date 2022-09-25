@@ -62,7 +62,7 @@ const Index: NextPage = () => {
       </nav>
       {/* I'm trying to make the website look nice, but uhhh this code isn't looking neat... Does it matter? To me? I don't mind
           Perhaps in the future I'm gonna cringe at the fact this code is messy... */}
-      <div className='prose prose-zinc dark:prose-invert xl:max-w-full md:mx-auto px-4 sm:px-7 lg:px-9 pb-5 md:pt-[2.8rem]'>
+      <div className='prose prose-zinc dark:prose-invert xl:max-w-full md:mx-auto px-4 sm:px-7 lg:px-9 md:pt-[2.8rem]'>
         <div className='flex flex-col lg:flex-row justify-between gap-x-8 py-8 lg:py-16'>
           <div className='flex flex-col justify-evenly items-start mx-w-xl'>
             <h1 className='text-6xl font-bold m-0 text-white'>
@@ -80,7 +80,7 @@ const Index: NextPage = () => {
             >
               <Icons/>
             </div>
-            <div className='items-start justify-evenly flex-col pt-12 lg:flex max-w-lg'>
+            <div className='items-start justify-evenly flex-col pt-16 lg:flex max-w-lg'>
               <div>
                 <h2 className='text-white'>Programming.</h2>
                 <p className='text-lg text-gray-200'>
@@ -92,7 +92,7 @@ const Index: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className='items-center justify-evenly flex-col lg:flex max-w-lg lg:pt-48'>
+          <div className='items-center justify-evenly flex-col lg:flex max-w-lg pt-[15rem]'>
             <div>
               <h2 className='text-white'>Hobbies.</h2>
               <p className='text-lg text-gray-200'>
@@ -108,8 +108,7 @@ const Index: NextPage = () => {
       </div>
 
       <div
-        className='flex mx-auto text-center items-center justify-center'
-        style={{ bottom: 100 }}
+        className=' mx-auto text-center items-center justify-center'
       >
         <footer
           className='text-center align-bottom lg:fixed inset-x-0 bottom-10 text-white'
