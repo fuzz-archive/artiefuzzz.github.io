@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-script-component-in-head */
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import Script from 'next/script'
 import ProfilePicture from '../../public/profilepic.png'
 import '../styles/globals.scss'
 
@@ -27,8 +26,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='og:site_name' content='Artie' />
         <meta name='keywords' content='ArtieFuzzz, Artie, Fuzzz' />
 
-        <Script async src='https://arc.io/widget.min.js#RHQdmiNq' type='text/javascript'/>
-        <Script async src='https://analytics.artiefuzzz.space/umami.js' data-website-id='04c0fa1c-3536-4ec4-b4da-a5b2968fd6f0' type='text/javascript'/>
+        <script async defer src='https://arc.io/widget.min.js#RHQdmiNq' type='text/javascript'/>
+        <script async defer src='https://analytics.artiefuzzz.space/umami.js' data-website-id='04c0fa1c-3536-4ec4-b4da-a5b2968fd6f0' type='text/javascript'/>
       </Head>
 
       <Component {...pageProps} />
