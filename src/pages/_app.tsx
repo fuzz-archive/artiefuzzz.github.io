@@ -28,6 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name='keywords' content='ArtieFuzzz, Artie, Fuzzz' />
 
         <Script async src='https://arc.io/widget.min.js#RHQdmiNq' type='text/javascript'/>
+        <Script async src='https://analytics.artiefuzzz.space/umami.js' data-website-id='04c0fa1c-3536-4ec4-b4da-a5b2968fd6f0' type='text/javascript'/>
       </Head>
 
       <Component {...pageProps} />
