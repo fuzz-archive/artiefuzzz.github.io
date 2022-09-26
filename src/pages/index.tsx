@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import {
-  Github, Steam, Visualstudiocode,
+  Github,
+  Steam,
+  Visualstudiocode,
   Wakatime
 } from '@icons-pack/react-simple-icons'
 import type { NextPage } from 'next'
@@ -40,20 +42,32 @@ const Index: NextPage = () => {
             />
           </div>
           <div className='flex w-10'>
-            <a href='https://github.com/ArtieFuzzz' className='nav-item'>
+            <a
+              href='https://github.com/ArtieFuzzz'
+              className='nav-item'
+              onClick={() => umami('Clicked Github Icon')}
+            >
               <Github />
             </a>
-            <a href='https://wakatime.com/@ArtieFuzzz' className='nav-item'>
+            <a
+              href='https://wakatime.com/@ArtieFuzzz'
+              className='nav-item'
+              onClick={() => umami('Clicked Wakatime Icon')}
+            >
               <Wakatime />
             </a>
             <a
               href='https://steamcommunity.com/id/ArtieFuzzz/'
               className='nav-item'
+              onClick={() => umami('Clicked Steam Icon')}
             >
               <Steam />
             </a>
             <Link href='/projects'>
-              <a className='nav-item'>
+              <a
+                className='nav-item'
+                onClick={() => umami('Clicked Projects Icon')}
+              >
                 <Visualstudiocode />
               </a>
             </Link>
@@ -78,7 +92,7 @@ const Index: NextPage = () => {
               id='icon-fade'
               style={{ paddingRight: '33rem' }}
             >
-              <Icons/>
+              <Icons />
             </div>
             <div className='items-start justify-evenly flex-col pt-16 lg:flex max-w-lg'>
               <div>
@@ -107,21 +121,33 @@ const Index: NextPage = () => {
         </div>
       </div>
 
-      <div
-        className=' mx-auto text-center items-center justify-center'
-      >
+      <div className=' mx-auto text-center items-center justify-center'>
         <footer
           className='text-center align-bottom lg:fixed inset-x-0 bottom-10 text-white'
           style={{ fontSize: '1rem' }}
         >
           Copyright &copy; 2022 - Present |
-          <a href='https://github.com/ArtieFuzzz'> ArtieFuzzz </a> | (
-          <a href='https://www.pixiv.net/en/artworks/97122460'>
+          <a
+            href='https://github.com/ArtieFuzzz'
+            onClick={() => umami('Clicked Footer Link to Github')}
+          >
+            {' '}
+            ArtieFuzzz{' '}
+          </a>{' '}
+          | (
+          <a
+            href='https://www.pixiv.net/en/artworks/97122460'
+            onClick={() => umami('Clicked Footer Link to Background Source')}
+          >
             Background Source
           </a>
           )
           <br />
-          <a href='https://www.flaticon.com/free-icons/rose' title='rose icons'>
+          <a
+            href='https://www.flaticon.com/free-icons/rose'
+            title='rose icons'
+            onClick={() => umami('Clicked Attribute')}
+          >
             Rose icons created by Freepik - Flaticon
           </a>
         </footer>
