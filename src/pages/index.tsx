@@ -42,32 +42,20 @@ const Index: NextPage = () => {
             />
           </div>
           <div className='flex w-10'>
-            <a
-              href='https://github.com/ArtieFuzzz'
-              className='nav-item'
-              onClick={() => umami('Clicked Github Icon')}
-            >
+            <a href='https://github.com/ArtieFuzzz' className='nav-item umami-click-github'>
               <Github />
             </a>
-            <a
-              href='https://wakatime.com/@ArtieFuzzz'
-              className='nav-item'
-              onClick={() => umami('Clicked Wakatime Icon')}
-            >
+            <a href='https://wakatime.com/@ArtieFuzzz' className='nav-item umami-click-wakatime'>
               <Wakatime />
             </a>
             <a
               href='https://steamcommunity.com/id/ArtieFuzzz/'
-              className='nav-item'
-              onClick={() => umami('Clicked Steam Icon')}
+              className='nav-item umami-click-steam'
             >
               <Steam />
             </a>
             <Link href='/projects'>
-              <a
-                className='nav-item'
-                onClick={() => umami('Clicked Projects Icon')}
-              >
+              <a className='nav-item umami-click-projects'>
                 <Visualstudiocode />
               </a>
             </Link>
@@ -127,27 +115,13 @@ const Index: NextPage = () => {
           style={{ fontSize: '1rem' }}
         >
           Copyright &copy; 2022 - Present |
-          <a
-            href='https://github.com/ArtieFuzzz'
-            onClick={() => umami('Clicked Footer Link to Github')}
-          >
-            {' '}
-            ArtieFuzzz{' '}
-          </a>{' '}
-          | (
-          <a
-            href='https://www.pixiv.net/en/artworks/97122460'
-            onClick={() => umami('Clicked Footer Link to Background Source')}
-          >
+          <a href='https://github.com/ArtieFuzzz' className='umami-click-footer-profile'> ArtieFuzzz </a> | (
+          <a href='https://www.pixiv.net/en/artworks/97122460' className='umami-click-footer-bg-source'>
             Background Source
           </a>
           )
           <br />
-          <a
-            href='https://www.flaticon.com/free-icons/rose'
-            title='rose icons'
-            onClick={() => umami('Clicked Attribute')}
-          >
+          <a href='https://www.flaticon.com/free-icons/rose' title='rose icons' className='umami-click-footer-attribute'>
             Rose icons created by Freepik - Flaticon
           </a>
         </footer>
