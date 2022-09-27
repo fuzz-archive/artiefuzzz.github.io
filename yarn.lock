@@ -640,8 +640,9 @@ __metadata:
     eslint-config-next: 12.3.1
     next: 12.3.1
     postcss: 8.4.16
-    react: 18.2.0
-    react-dom: 18.2.0
+    preact: ^10.11.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
     sass: 1.54.9
     tailwindcss: 3.1.8
     typescript: 4.8.3
@@ -2921,6 +2922,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"preact@npm:^10.11.0":
+  version: 10.11.0
+  resolution: "preact@npm:10.11.0"
+  checksum: 1e3f8e6fe88f26a2896826f69121b70eb69c63a46bfc1160da8672b37618fcfd294128979ed27e37499604df90c1505c30545f75683f23d8f7e6ac0693d2ff14
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -2977,7 +2985,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
+"react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -2996,7 +3004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
+"react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
