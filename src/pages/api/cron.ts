@@ -28,7 +28,7 @@ export default async function handler(
         body: JSON.stringify({
           embeds: [embed],
         }),
-      }, FetchResultTypes.JSON)
+      }, FetchResultTypes.JSON).catch(why => res.status(500).json({ status: 500, message: why }))
 
       return res.status(200).json({ status: 200, message: 'OK' })
     }
