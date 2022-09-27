@@ -640,7 +640,6 @@ __metadata:
     eslint-config-next: 12.3.1
     next: 12.3.1
     postcss: 8.4.16
-    preact: ^10.11.0
     react: ^18.2.0
     react-dom: ^18.2.0
     sass: 1.55.0
@@ -2919,13 +2918,6 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: 10eee25efd77868036403858577da0cefaf2e0905feeaba5770d5438ccdddba3d01cba8063e96b8aac4c6daa0ed413dd5ae0554a433a3c4db38df1d134cffc1f
-  languageName: node
-  linkType: hard
-
-"preact@npm:^10.11.0":
-  version: 10.11.0
-  resolution: "preact@npm:10.11.0"
-  checksum: 1e3f8e6fe88f26a2896826f69121b70eb69c63a46bfc1160da8672b37618fcfd294128979ed27e37499604df90c1505c30545f75683f23d8f7e6ac0693d2ff14
   languageName: node
   linkType: hard
 
