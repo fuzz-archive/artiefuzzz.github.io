@@ -30,12 +30,11 @@ export default async function handler(
         body: JSON.stringify({
           embeds: [embed],
         }),
-      })
+      }, FetchResultTypes.JSON)
 
       return res.status(200).json({ status: 200, message: 'OK' })
-    } else {
-      return res.status(200).json({ status: 200, message: 'KO' })
     }
+    return res.status(200).json({ status: 200, message: 'KO' })
   }
 
   return res
