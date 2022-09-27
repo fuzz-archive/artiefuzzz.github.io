@@ -9,5 +9,5 @@ jobs:
       - name: Call our API route
         run: |
           curl --request POST \
-          --url 'https://yoursite.com/api/cron' \
+          --url 'https://artiefuzzz.space/api/cron' \
           --header 'Authorization: ${{ secrets.VERCEL_SECRET_KEY }}'
