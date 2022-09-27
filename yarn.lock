@@ -339,7 +339,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/umami@npm:^0.1.0":
+"@types/umami@npm:0.1.0":
   version: 0.1.0
   resolution: "@types/umami@npm:0.1.0"
   checksum: 36e3e90c89ce691d78545f95ab0d55b2906183488fd1cfe83d2888ed35652098934848ba15a298f0f37292a95a244f8a2b03c4a09f1de08715203de6bb1d6710
@@ -634,14 +634,20 @@ __metadata:
     "@types/node": 17.0.23
     "@types/react": 18.0.21
     "@types/react-dom": 18.0.6
-    "@types/umami": ^0.1.0
+    "@types/umami": 0.1.0
     autoprefixer: 10.4.12
     eslint: 8.24.0
     eslint-config-next: 12.3.1
     next: 12.3.1
     postcss: 8.4.16
+<<<<<<< HEAD
     react: ^18.2.0
     react-dom: ^18.2.0
+=======
+    preact: 10.11.0
+    react: 18.2.0
+    react-dom: 18.2.0
+>>>>>>> 760f20c9e4998891212d6a8c090d865b46b8be91
     sass: 1.55.0
     tailwindcss: 3.1.8
     typescript: 4.8.3
@@ -2921,6 +2927,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
+=======
+"preact@npm:10.11.0":
+  version: 10.11.0
+  resolution: "preact@npm:10.11.0"
+  checksum: 1e3f8e6fe88f26a2896826f69121b70eb69c63a46bfc1160da8672b37618fcfd294128979ed27e37499604df90c1505c30545f75683f23d8f7e6ac0693d2ff14
+  languageName: node
+  linkType: hard
+
+>>>>>>> 760f20c9e4998891212d6a8c090d865b46b8be91
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
@@ -2977,7 +2993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.2.0":
+"react-dom@npm:18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -2996,7 +3012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.2.0":
+"react@npm:18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
