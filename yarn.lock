@@ -250,7 +250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/fetch@npm:^2.4.1":
+"@sapphire/fetch@npm:2.4.1":
   version: 2.4.1
   resolution: "@sapphire/fetch@npm:2.4.1"
   dependencies:
@@ -639,7 +639,7 @@ __metadata:
   resolution: "artiefuzzz.github.io@workspace:."
   dependencies:
     "@icons-pack/react-simple-icons": 5.7.0
-    "@sapphire/fetch": ^2.4.1
+    "@sapphire/fetch": 2.4.1
     "@tailwindcss/typography": 0.5.7
     "@types/node": 17.0.23
     "@types/react": 18.0.21
